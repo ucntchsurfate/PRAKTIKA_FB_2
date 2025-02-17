@@ -1,0 +1,48 @@
+$primary-height: 100%;
+$primary-width: 100%;
+
+$main-display: flex;
+
+$font-color: red;
+$font-text: 'Roboto', sans-serif;
+
+$backcolor-main: green;
+$backcolor-help: orange;
+$border: 1px solid black;
+
+body{
+    width: $primary-width;
+    height: $primary-height;
+}
+
+.main{
+    display: $main-display;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main h1{
+    color: $font-color;
+    font-family: $font-text;
+}
+
+.flex{
+    display: $main-display;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex p{
+    font-family: $font-text;
+    color: blue;
+}
+
+.button{
+    font-family: $font-text;
+    background-color: $backcolor-main;
+    border: $border;
+    &:hover{
+        background-color: $backcolor-help;
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "praktika_fb_2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./scss/styles.scss ./css/styles.css --watch",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucntchsurfate/PRAKTIKA_FB_2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ucntchsurfate/PRAKTIKA_FB_2/issues"
+  },
+  "homepage": "https://github.com/ucntchsurfate/PRAKTIKA_FB_2#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
